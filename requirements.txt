@@ -21,3 +21,6 @@ typogrify
 phpserialize
 webassets
 ipython>=1.0.0
+
+# Tools
+ghp-import
