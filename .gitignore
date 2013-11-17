@@ -18,3 +18,5 @@
 cache
 #output
 .doit*
+
+tmux.sh
