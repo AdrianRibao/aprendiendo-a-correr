@@ -61,12 +61,23 @@ TRANSLATIONS = {
 
 # Links for the sidebar / navigation bar.
 # You should provide a key-value pair for each used language.
+#NAVIGATION_LINKS = {
+#    DEFAULT_LANG: (
+#        ('/archive.html', 'Archivos'),
+#        ('/categories/index.html', 'Tags'),
+#        ('/rss.xml', 'RSS'),
+#    ),
+#}
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/archive.html', 'Archivos'),
-        ('/categories/index.html', 'Tags'),
-        ('/rss.xml', 'RSS'),
-    ),
+        ('/index.html', 'Inicio', 'icon-home'),
+        ('/archive.html', 'Archivos', 'icon-folder-open-alt'),
+        ('/categories/index.html', 'Tags', 'icon-tags'),
+        ('/rss.xml', 'RSS', 'icon-rss'),
+        #('http://getnikola.com', 'About me', 'icon-user'),
+        ('https://twitter.com/AdrianRibaoM', 'Twitter', 'icon-twitter'),
+        #('https://github.com/getnikola', 'My Github', 'icon-github'),
+    )
 }
 
 # Below this point, everything is optional
@@ -279,7 +290,8 @@ COMPILERS = {
 # translated
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+#THEME = "bootstrap3"
+THEME = "zen-jinja"
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored.
@@ -342,12 +354,12 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # To use comments, you can choose between different third party comment
 # systems, one of "disqus", "livefyre", "intensedebate", "moot",
 #                 "googleplus" or "facebook"
-# COMMENT_SYSTEM = "disqus"
+COMMENT_SYSTEM = "disqus"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-# COMMENT_SYSTEM_ID = "nikolademo"
+COMMENT_SYSTEM_ID = "aprendiendoacorrer"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
@@ -529,6 +541,24 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # });
 # </script>
 # """
+BODY_END = """
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setCookieDomain", "*.aprendiendoacorrer.es"]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.adrima.es/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "26"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+"""
 
 # EXTRA_HEAD_DATA = """
 # <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
