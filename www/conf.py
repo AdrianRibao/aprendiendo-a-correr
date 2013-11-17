@@ -74,7 +74,7 @@ NAVIGATION_LINKS = {
         ('/archive.html', 'Archivos', 'icon-folder-open-alt'),
         ('/categories/index.html', 'Tags', 'icon-tags'),
         ('/rss.xml', 'RSS', 'icon-rss'),
-        #('http://getnikola.com', 'About me', 'icon-user'),
+        ('/stories/sobre-mi.html', 'Sobre mi', 'icon-user'),
         ('https://twitter.com/AdrianRibaoM', 'Twitter', 'icon-twitter'),
         #('https://github.com/getnikola', 'My Github', 'icon-github'),
     )
@@ -345,7 +345,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contenidos &copy; {date}         <a href="mailto:{email}">{author}</a> - Generado por<a href="http://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
                                        author=BLOG_AUTHOR,
                                        date=time.gmtime().tm_year,
@@ -412,7 +412,7 @@ COMMENT_SYSTEM_ID = "aprendiendoacorrer"
 # Generally, you want FUTURE_IS_NOW and DEPLOY_FUTURE to be the same value.
 # DEPLOY_FUTURE = False
 # If False, draft posts will not be deployed
-# DEPLOY_DRAFTS = True
+DEPLOY_DRAFTS = False
 
 # Allows scheduling of posts using the rule specified here (new_post -s)
 # Specify an iCal Recurrence Rule: http://www.kanzaki.com/docs/ical/rrule.html
