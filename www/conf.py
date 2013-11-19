@@ -254,6 +254,12 @@ DEPLOY_COMMANDS = [
 #    ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
 # }
 
+from nikola import filters
+FILTERS = {
+    ".css": [filters.yui_compressor],
+    ".js": [filters.yui_compressor],
+}
+
 # Expert setting! Create a gzipped copy of each generated file. Cheap server-
 # side optimization for very high traffic sites or low memory servers.
 # GZIP_FILES = False
@@ -325,7 +331,7 @@ THEME = "zen-jinja"
 # }
 
 # Show only teasers in the index pages? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # A HTML fragment with the Read more... link.
 # The following tags exist and are replaced for you:
@@ -339,11 +345,11 @@ THEME = "zen-jinja"
 LICENSE = ""
 # I recommend using the Creative Commons' wizard:
 # http://creativecommons.org/choose/
-# LICENSE = """
-# <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
-# <img alt="Creative Commons License BY-NC-SA"
-# style="border-width:0; margin-bottom:12px;"
-# src="http://i.creativecommons.org/l/by-nc-sa/2.5/ar/88x31.png"></a>"""
+LICENSE = """
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
+<img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="http://i.creativecommons.org/l/by-nc-sa/2.5/ar/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''

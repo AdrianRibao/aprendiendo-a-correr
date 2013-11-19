@@ -6,42 +6,34 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://aprendiendoacorrer.es/2013/index.html</loc>
-  <lastmod>2013-11-17</lastmod>
+  <lastmod>2013-11-20</lastmod>
  </url>
  <url>
   <loc>http://aprendiendoacorrer.es/archive.html</loc>
-  <lastmod>2013-11-17</lastmod>
+  <lastmod>2013-11-20</lastmod>
  </url>
  <url>
   <loc>http://aprendiendoacorrer.es/categories/index.html</loc>
-  <lastmod>2013-11-17</lastmod>
- </url>
- <url>
-  <loc>http://aprendiendoacorrer.es/galleries/index.html</loc>
-  <lastmod>2013-11-17</lastmod>
- </url>
- <url>
-  <loc>http://aprendiendoacorrer.es/galleries/rss.xml</loc>
-  <lastmod>2013-11-17</lastmod>
+  <lastmod>2013-11-20</lastmod>
  </url>
  <url>
   <loc>http://aprendiendoacorrer.es/index.html</loc>
-  <lastmod>2013-11-17</lastmod>
- </url>
- <url>
-  <loc>http://aprendiendoacorrer.es/listings/index.html</loc>
-  <lastmod>2013-11-17</lastmod>
+  <lastmod>2013-11-20</lastmod>
  </url>
  <url>
   <loc>http://aprendiendoacorrer.es/posts/introduccion.html</loc>
-  <lastmod>2013-11-17</lastmod>
+  <lastmod>2013-11-20</lastmod>
+ </url>
+ <url>
+  <loc>http://aprendiendoacorrer.es/posts/lo-que-se-puede-medir-se-puede-mejorar.html</loc>
+  <lastmod>2013-11-20</lastmod>
  </url>
  <url>
   <loc>http://aprendiendoacorrer.es/rss.xml</loc>
-  <lastmod>2013-11-17</lastmod>
+  <lastmod>2013-11-20</lastmod>
  </url>
  <url>
   <loc>http://aprendiendoacorrer.es/stories/sobre-mi.html</loc>
-  <lastmod>2013-11-17</lastmod>
+  <lastmod>2013-11-20</lastmod>
  </url>
 </urlset>

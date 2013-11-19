@@ -453,18 +453,12 @@ a [class*=" icon-"] {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
 }
 .icon-2x {
   font-size: 2em;
 }
 .icon-2x.icon-border {
   border-width: 2px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -477,9 +471,6 @@ a [class*=" icon-"] {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
 }
 .icon-4x {
   font-size: 4em;
@@ -489,18 +480,12 @@ a [class*=" icon-"] {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
 }
 .icon-5x {
   font-size: 5em;
 }
 .icon-5x.icon-border {
   border-width: 5px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -699,7 +684,7 @@ a .icon-spin {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
-  filter: progid:dximagetransform.microsoft.basicimage(rotation=1);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 .icon-rotate-180:before {
   -webkit-transform: rotate(180deg);
@@ -707,7 +692,7 @@ a .icon-spin {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-  filter: progid:dximagetransform.microsoft.basicimage(rotation=2);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 .icon-rotate-270:before {
   -webkit-transform: rotate(270deg);
@@ -715,7 +700,7 @@ a .icon-spin {
   -ms-transform: rotate(270deg);
   -o-transform: rotate(270deg);
   transform: rotate(270deg);
-  filter: progid:dximagetransform.microsoft.basicimage(rotation=3);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .icon-flip-horizontal:before {
   -webkit-transform: scale(-1, 1);
@@ -1926,9 +1911,6 @@ dd {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -2072,9 +2054,6 @@ dd {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
 }
 .pager li > a:hover,
 .pager li > a:focus {
@@ -2155,9 +2134,6 @@ a:focus {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
 }
 @media (max-width: 773px) {
   .social a [class^="icon-"] {
@@ -2165,9 +2141,6 @@ a:focus {
   }
   .social a [class^="icon-"].icon-border {
     border-width: 2px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -2357,9 +2330,6 @@ address {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
@@ -2394,9 +2364,6 @@ pre {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
 }
 code {
   padding: 2px 4px;
@@ -2417,9 +2384,6 @@ pre {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -2451,9 +2415,9 @@ pre.code {
 .backlink a:after {
   content: ' /';
 }
-.backlink  + .postbox > h1.title,
-.backlink  + .post > h1.title,
-.backlink  + h1.title {
+.backlink + .postbox > h1.title,
+.backlink + .post > h1.title,
+.backlink + h1.title {
   margin-top: 0;
 }
 .post h1.title {
@@ -2472,9 +2436,9 @@ pre.code {
 .post .backlink a:after {
   content: ' /';
 }
-.post .backlink  + .postbox > h1.title,
-.post .backlink  + .post > h1.title,
-.post .backlink  + h1.title {
+.post .backlink + .postbox > h1.title,
+.post .backlink + .post > h1.title,
+.post .backlink + h1.title {
   margin-top: 0;
 }
 .post .meta {
@@ -2580,9 +2544,6 @@ pre.code {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
@@ -2599,8 +2560,8 @@ pre.code {
     width: 97%;
   }
 }
-.post .body .figure  > a,
-.post .body .figure  > a > img {
+.post .body .figure > a,
+.post .body .figure > a > img {
   max-width: 100%;
   height: auto;
   overflow: hidden;

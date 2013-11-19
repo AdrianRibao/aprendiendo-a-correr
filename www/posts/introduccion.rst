@@ -2,7 +2,7 @@
 .. description: 
 .. tags: 
 .. date: 2013/11/17 16:35:59
-.. title: Por qué quiero correr
+.. title: ¿Por qué quiero correr?
 .. slug: introduccion
 
 Hola amigos,
@@ -12,6 +12,8 @@ estoy ahora, el de *empezar a correr*.
 
 No es del todo cierto que mi relación con el running sea algo reciente.
 Esta es mi historia con el deporte:
+
+.. TEASER_END
 
 Acabé la carrera en 2003 y pasados unos meses, a principios de 2004, me
 fui un par de años a Inglaterra a aprender inglés con mi novia. Mi estancia
